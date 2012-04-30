@@ -50,6 +50,6 @@ group :test do
   gem 'rspec-rails'
   gem 'rb-fsevent', :require => false
   gem 'growl'
-  gem 'guard-spork'
+  gem 'guard-spork' 
   gem 'spork'
 end
