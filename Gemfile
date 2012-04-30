@@ -44,5 +44,5 @@ end
 group :test do
   gem 'capybara'
   gem 'rspec'
-  gem 'webrat'
+#  gem 'webrat'
 end
