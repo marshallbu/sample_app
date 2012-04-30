@@ -39,10 +39,14 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 group :test do
   gem 'capybara'
-  gem 'rspec'
-#  gem 'webrat'
+  gem 'rspec-rails'
+  gem 'rb-fsevent', :require => false
+  gem 'growl'
+  gem 'guard-spork'
+  gem 'spork'
 end
