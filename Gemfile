@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 #gem 'bootstrap-sass'
-gem 'therubyracer'
-gem 'bcrypt-ruby'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -28,7 +26,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
@@ -56,4 +54,6 @@ group :test do
   gem 'guard-spork' 
   gem 'spork'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
